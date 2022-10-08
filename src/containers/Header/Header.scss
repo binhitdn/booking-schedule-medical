@@ -1,0 +1,64 @@
+@import "../../styles/common.scss";
+
+.header-container {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    background-color: $colormain;
+    color: $common-text-color;
+    height: 40px;
+    position: relative;
+    .btn-logout {
+        color: $common-text-color;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 10px;
+        &:hover {
+            background-color: darken($colormain, 5);
+        }
+        i {
+            font-size: $base-size + 1px;
+        }
+    }
+    .lang-logout {
+        .lang{
+            margin : 0 5px;
+            font-size: 15px;
+            font-weight: 100;
+            color: rgb(255, 0, 0);
+        }
+        .lang-vi{
+            &.active {
+                color: rgb(0, 255, 60);
+                font-weight: bold;
+                font-size: 22px;
+            }
+            &:hover {
+                font-size: 22px;
+                cursor: pointer;
+            }
+        }
+        .lang-en{
+            &.active {
+                color: rgb(0, 255, 60);
+                font-weight: bold;
+                font-size: 22px;
+            }
+            &:hover {
+                font-size: 22px;
+                cursor: pointer;
+            }
+        }
+        .lang-jp{
+            &.active {
+                color: rgb(0, 255, 60);
+                font-weight: bold;
+                font-size: 22px;
+            }
+            &:hover {
+                font-size: 22px;
+                cursor: pointer;
+            }
+        }
+    }
+}

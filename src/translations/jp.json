@@ -1,0 +1,36 @@
+{
+    "home-header": {
+        "speciality": "専門",
+        "search-doctor-speciality": "専門分野から医者を探す",
+        "hospital": "病院",
+        "search-hospital": "病院を探す",
+        "doctor": "医者        ",
+        "select-doctor": "良い医者を見つける",
+        "fee": "費用",
+        "check-health": "ヘルスチェック"
+    },
+    "slider": {
+        "slider-title": "医療財団",
+        "slider-subtitle": "包括的なヘルスケア"
+    },
+    "login": {
+        "login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "userpass-wrong": "Invalid username or password!"
+    },
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "product-manage": "Package manage",
+                "register-package-group-or-account": "Register service package for group/account"
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        }
+    }
+}

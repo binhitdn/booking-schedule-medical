@@ -1,0 +1,87 @@
+.login-background {
+    height: 100vh;
+    background: rgb(34,193,195);
+  background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+  .login-container {
+    width: 400px;
+    border-radius: 12px;
+    
+    margin: 0 auto;
+    background-color: #fff;
+    .login-content {
+        padding: 20px;
+        .login-text {
+            text-align: center;
+            font-size: 23px;
+            font-weight: bold;
+        }
+        .login-input {
+            margin: 9px 0;
+            
+        }
+        .login-input-i {
+            border-radius:15px;
+        }
+        .btn-login {
+            width: 100%;
+            margin: 10px 0;
+            height: 30px;
+            border-radius:15px;
+            border: none;
+            background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+            color: #fff;
+            font-size: 16px;
+        }
+        .forgot-password {
+            font-size: 12px;
+        }
+        .social-login {
+            display: flex;
+            
+            
+                
+                .google {
+                    color: #fff;
+                    font-size: 20px;
+                    background-color: red;
+                    border-radius: 50%;
+                    height: 35px;
+                    width: 35px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+                .facebook {
+                    color: #fff;
+                    font-size: 20px;
+                    background-color: blue;
+                    border-radius: 50%;
+                    height: 35px;
+                    width: 35px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+            
+
+        }
+        .social-login {
+            display: flex;
+            justify-content: space-between;
+            width: 75%;
+            margin: 0 auto;
+            .google-contain , .facebook-contain {
+                display: flex;
+                border: 1px solid #ccc;
+            }
+        }
+
+    }
+
+    
+}
+
+
+}

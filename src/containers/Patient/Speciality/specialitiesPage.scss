@@ -1,0 +1,62 @@
+.detail-speciality-content {
+   
+    .speciality-background {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center ;
+        
+        
+        .speciality-background-opacity {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.688),rgba(255, 255, 255, 0.737),rgba(255, 255, 255, 0.726));
+           
+            .speciality-background-content {
+                margin: 0 auto;
+            
+           
+                width: 80%;
+                height: auto;
+                
+                
+                .speciality-name {
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding: 10px 0;
+                }
+                .speciality-description {
+                    
+                   
+                    .speciality-description-child {
+                        
+                        height: 100%;
+                        overflow: hidden;
+                    }
+                }
+            }
+            
+        }
+        
+            
+            
+        
+        
+    }
+    .list-doctor-by-speciality {
+        background: #fff0f0;
+        .list-doctor-by-speciality-child {
+            margin: 0 auto;
+            width: 80%;
+            .filter-doctor-location {
+                margin: 30px;
+                padding: 8px;
+                border: 1px solid #ccc;
+            }
+            .doctors-by-speciality {
+                .doctor-by-speciality {
+                    background-color: #fff;
+                }
+            }
+            
+        }
+    }
+
+}
